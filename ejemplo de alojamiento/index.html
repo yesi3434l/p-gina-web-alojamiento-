@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Alojamiento Web Compartido</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f6fa;
+    color: #263238;
+}
+
+header {
+    background: #142d4e;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+nav {
+    background: #247ba0;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffda79;
+}
+
+.portada {
+    background:
+    linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+    url("https://images.unsplash.com/photo-1451187580459-43490279c0fa");
+    background-size: cover;
+    background-position: center;
+    padding: 110px 20px;
+    text-align: center;
+    color: white;
+}
+
+.portada h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.portada p {
+    font-size: 19px;
+}
+
+section {
+    padding: 45px 10%;
+}
+
+h2 {
+    color: #176b87;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    line-height: 1.7;
+    font-size: 17px;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+.tarjeta {
+    background: white;
+    padding: 20px;
+    width: 290px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #0002;
+    text-align: center;
+}
+
+.tarjeta img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.tarjeta h3 {
+    color: #247ba0;
+    margin: 15px;
+}
+
+.info {
+    background: #dceef5;
+    text-align: center;
+}
+
+footer {
+    background: #142d4e;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>ALOJAMIENTO WEB COMPARTIDO</h1>
+    <p>Conoce cómo funciona el mundo del hospedaje web</p>
+</header>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#que-es">¿Qué es?</a>
+    <a href="#caracteristicas">Características</a>
+    <a href="#ventajas">Ventajas</a>
+</nav>
+
+<div class="portada" id="inicio">
+    <h2>¡Tu página en Internet!</h2>
+    <p>Descubre una forma económica y sencilla de publicar
+    tu sitio web.</p>
+</div>
+
+<section id="que-es">
+    <h2>¿Qué es el alojamiento compartido?</h2>
+
+    <p>
+    El alojamiento web compartido es un servicio en el que
+    varios sitios web utilizan un mismo servidor físico.
+    Todos comparten recursos como almacenamiento, memoria
+    y capacidad de procesamiento.
+    Es una opción económica y sencilla para personas,
+    estudiantes y pequeños negocios que desean tener
+    presencia en Internet.
+    </p>
+</section>
+
+<section id="caracteristicas">
+    <h2>Características principales</h2>
+
+    <div class="contenedor">
+
+        <div class="tarjeta">
+            <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31"
+            alt="Servidores de alojamiento">
+            <h3>Servidor compartido</h3>
+            <p>Varios sitios web se alojan en un mismo servidor.</p>
+        </div>
+
+        <div class="tarjeta">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+            alt="Computadora trabajando">
+            <h3>Bajo costo</h3>
+            <p>Los gastos del servidor se distribuyen entre
+            diferentes usuarios.</p>
+        </div>
+
+        <div class="tarjeta">
+            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f"
+            alt="Diseño de página web">
+            <h3>Fácil administración</h3>
+            <p>Permite administrar archivos, bases de datos
+            y páginas web desde un panel de control.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="info" id="ventajas">
+    <h2>Ventajas y desventajas</h2>
+
+    <div class="contenedor">
+
+        <div class="tarjeta">
+            <h3>Ventajas</h3>
+            <p>✓ Es económico.</p>
+            <p>✓ Fácil de utilizar.</p>
+            <p>✓ No necesitas administrar el servidor.</p>
+            <p>✓ Ideal para sitios pequeños.</p>
+        </div>
+
+        <div class="tarjeta">
+            <h3>Desventajas</h3>
+            <p>✗ Los recursos son compartidos.</p>
+            <p>✗ Menor capacidad de personalización.</p>
+            <p>✗ El rendimiento puede verse afectado
+            por otros sitios.</p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2>¿Para quién es recomendable?</h2>
+    <p>
+    Es recomendable para estudiantes, blogs personales,
+    pequeños negocios, páginas informativas y proyectos
+    escolares que no necesitan grandes cantidades de
+    recursos del servidor.
+    </p>
+</section>
+
+<footer>
+    <p>Proyecto escolar: Alojamiento Web Compartido</p>
+    <p>Creado con HTML y CSS | 2026</p>
+</footer>
+
+</body>
+</html>
